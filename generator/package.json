@@ -1,0 +1,16 @@
+{
+  "name": "generator",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "demo": "tsx src/index.ts",
+    "progress": "tsx src/index.ts --progress"
+  },
+  "dependencies": {
+    "postgres": "^3.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.0",
+    "tsx": "^4.19.0"
+  }
+}

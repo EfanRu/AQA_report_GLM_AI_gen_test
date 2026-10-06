@@ -1,0 +1,19 @@
+{
+  "name": "testreport",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Сервис отчётности по автотестам: перезапуски, комментарии, отчёты по билдам",
+  "workspaces": [
+    "app",
+    "generator"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w app",
+    "build": "npm run build -w app",
+    "start": "npm run start -w app",
+    "typecheck": "npm run typecheck -w app",
+    "db:push": "npm run db:push -w app",
+    "demo": "npm run demo -w generator",
+    "demo:progress": "npm run progress -w generator"
+  }
+}
